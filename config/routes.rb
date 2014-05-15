@@ -5,6 +5,8 @@ Googlemap::Application.routes.draw do
   root :to=>"locations#index"
   get 'map/home'
   post 'map/home'
+  get 'locations/dist'
+  post 'locations/dist'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
